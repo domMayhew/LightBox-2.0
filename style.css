@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  text-align: center;
+  font-family: Work Sans;
+}
+
+h1, h3, p, label {
+  color: white;
+}
+
+table {
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(128, 175, 230);
+  border-collapse: collapse;
+  margin: auto;
+}
+
+td {
+  border: 1px solid rgb(64, 224, 208);
+  padding: 0;
+}
+
+img {
+  vertical-align: top;
+}
+
+.button {
+  display: inline-block;
+  font-size: 1.25em;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  background-color: white;
+  opacity: 0.85;
+}
+
+#history {
+  width: 150px;
+}
+
+#redo, #undo {
+  background-color: grey;
+}
+
+#sizeButton {
+  background-color: white;
+  opacity: 0.85;
+}
+
+#win-message {
+  display: none;
+  position: absolute;
+  background-color: #03d7fc;
+  border: 3px solid teal;
+  width: 500px;
+  height: 200px;
+  top: 10%;
+  left: 50%;
+  margin-left: -250px;
+}
+
+#win-message p {
+  font-size: 24px;
+}
+
+#buttons {
+  padding: 10px;
+}

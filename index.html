@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Light Box 2.0</title>
+    <link rel='stylesheet' type='text/css' href='./style.css'>
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet" type="text/css">
+    <script src='./script.js' type='text/javascript' defer></script>
+  </head>
+  <body>
+    <h1>Light Box 2.0</h1>
+    <label for="sizeButton">How large would you like your playing board to be?</label>
+    <select id="sizeButton" name="sizeButton" style="width: 30px">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5" selected>5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+      <option value="10">10</option>
+    </select>
+    <br>
+      <div id="buttons">
+      <div class="button" id="reset">Reset</div>
+      <div class="button" id="undo">Undo</div>
+      <div class="button" id="redo">Redo</div>
+      <div class="button" id="history">Show History</div>
+      <div class="button" id="celebrate">Celebrate</div>
+    </div>
+    <table>
+      <tbody>
+      </tbody>
+    </table>
+    <div id="win-message">
+      <p>Congratulations, NERD!</p>
+      <br>
+      <div class="button" id="dismiss-win-message">Thanks!</div>
+    </div>
+  </body>
+</html>
